@@ -16,19 +16,19 @@ if vastus ==1:
             indeks=mass/(0.01*pikkus)**2
             print(f"{nimi}! Sinu keha indeks on:",round(indeks,2))
             if indeks <16:
-                print("Tervisele ohtlik alakaal	")
-            elif indeks >=16 and indeks==18:
-                print("Alakaal")
-            elif indeks >=19 and indeks==24:
-                print("Normaalkaal")
-            elif indeks >=24 and indeks==29:
-                print("Ülekaal")
-            elif indeks >=29 and indeks==34:
-                print("Rasvumine")
-            elif indeks >=34 and indeks==39:
-                print("Tugev rasvumine")
-            elif indeks >=39:
-                print("Tervisele ohtlik rasvumine")
+                print("Tervisele ohtlik alakaal	") and print("")
+            elif indeks >=16 and indeks<=19:
+                print("Alakaal") and print("")
+            elif indeks >=19 and indeks<=25:
+                print("Normaalkaal") and print("")
+            elif indeks >=24 and indeks<=30:
+                print("Ülekaal") and print("")
+            elif indeks >=29 and indeks<=35:
+                print("Rasvumine") and print("")
+            elif indeks >=34 and indeks<=40:
+                print("Tugev rasvumine") and print("")
+            elif indeks >=40:
+                print("Tervisele ohtlik rasvumine") and print("")
             else:
                 print("??")
         else:
